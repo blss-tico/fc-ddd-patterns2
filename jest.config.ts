@@ -4,6 +4,7 @@
  */
 
 export default {
+  // Take all ts(x) or js(x) and run swc/jest to make all tests
   transform: {
     "^.+\.(t|j)sx?$": ["@swc/jest"],
     
